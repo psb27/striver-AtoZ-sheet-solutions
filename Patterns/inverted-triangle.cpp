@@ -13,8 +13,10 @@ void trianglePattern(){
     }
 
     for(int i=n; i>=1; i--) {
+        int k=1;
         for(int j=i; j>=1; j--) {
-            cout << j << " ";
+            cout << k << " ";
+            k++;
         }
         cout << endl;
     }
